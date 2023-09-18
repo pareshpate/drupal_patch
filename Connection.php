@@ -758,7 +758,7 @@ class Connection extends DatabaseConnection {
    */
   function logWatchdogMessages() {
     foreach ($this->__watchdog as $log) {
-      //call_user_func_array('watchdog', $log);
+      call_user_func_array('watchdog', $log);
     }
   }
 
