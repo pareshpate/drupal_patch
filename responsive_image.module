@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Responsive image display formatter for image fields..
+ * Responsive image display formatter for image fields....
  */
 
 use Drupal\Core\Url;
